@@ -47,50 +47,32 @@ WanderLust is a full-stack web application inspired by Airbnb. It allows users t
 - MongoDB Atlas
 
 ### Tools & Integrations
-- Passport.js
+- Passport
 - Joi
 - Cloudinary
 - Mapbox
 - Git & GitHub
 
-## Project Structure
-
-WanderLust/
-├── models/
-├── routes/
-├── controllers/
-├── public/
-│   ├── css/
-│   ├── js/
-│   ├── images/
-├── views/
-│   ├── listings/
-│   ├── reviews/
-│   ├── partials/
-│   └── users/
-├── app.js
-├── package.json
-└── README.md
-
 ## How to Run Locally
 
 1. Clone the repository
-   git clone https://github.com/OmUphade/WanderLust.git
-   cd WanderLust
+   ```git clone https://github.com/OmUphade/WanderLust.git```
+   ```cd WanderLust```
 
 2. Install dependencies
-   npm install
+   ```npm install```
 
 3. Create a `.env` file and add:
-   CLOUDINARY_CLOUD_NAME=your_cloud_name
-   CLOUDINARY_KEY=your_api_key
-   CLOUDINARY_SECRET=your_secret_key
-   MAPBOX_TOKEN=your_mapbox_token
-   MONGO_URL=your_mongodb_atlas_url
-   SESSION_SECRET=your_secret
+```CLOUDINARY_CLOUD_NAME=your_cloud_name```
+```CLOUDINARY_KEY=your_api_key```
+```CLOUDINARY_SECRET=your_secret_key```
+```MAPBOX_TOKEN=your_mapbox_token```
+```MONGO_URL=your_mongodb_atlas_url```
+```SESSION_SECRET=your_secret```
 
-4. Start the server
-   node app.js
 
-5. Open the project in your browser
-   http://localhost:3000
+5. Start the server
+   ```node app.js```
+
+6. Open the project in your browser
+   ```http://localhost:3000```
